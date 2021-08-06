@@ -7,7 +7,7 @@ const client = new Discord.Client({
   partials: ['MESSAGE', 'REACTION']
 });
 const mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://amir:0VZFBKd33uQkPMex@Cluster0.tszxx.mongodb.net/Data', {
+mongoose.connect('mongo url', {
   useUnifiedTopology: true,
   useNewUrlParser: true
 }).then(console.log('connected to mongoose'))
